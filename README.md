@@ -1,5 +1,7 @@
 # gh-release-mcp
 
+<!-- mcp-name: io.github.zishuowang696/gh-release-mcp -->
+
 > An **MCP server** that lets an agent list and download **GitHub release assets** — with multi-mirror parallel ranged download and sha256 verification. **Zero external binaries** (pure Python standard library: no `aria2`, `curl`, `gh`, `jq`). By [embedai.com.cn](https://embedai.com.cn).
 
 Built for restricted networks: it probes which mirrors support HTTP `Range` (206), splits a file across mirrors and downloads segments in parallel, then verifies sha256 from GitHub's own asset `digest`.

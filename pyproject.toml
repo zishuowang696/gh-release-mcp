@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gh-release-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server to list and download GitHub release assets — multi-mirror parallel ranged download, zero external binaries (no aria2/curl/gh/jq). By embedai.com.cn"
 readme = "README.md"
 requires-python = ">=3.8"
