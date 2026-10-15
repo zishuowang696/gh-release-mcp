@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.zishuowang696/gh-release-mcp",
+  "title": "GitHub Release MCP",
+  "description": "List and download GitHub release assets with multi-mirror parallel ranged download.",
+  "repository": {
+    "url": "https://github.com/zishuowang696/gh-release-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "gh-release-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
