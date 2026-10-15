@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gh-release-mcp"
+version = "0.1.0"
+description = "MCP server to list and download GitHub release assets — multi-mirror parallel ranged download, zero external binaries (no aria2/curl/gh/jq). By embedai.com.cn"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [{ name = "embedai.com.cn", email = "zishuowang696@gmail.com" }]
+keywords = ["mcp", "model-context-protocol", "github", "release", "download", "ghproxy"]
+classifiers = [
+  "Environment :: Console",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.scripts]
+gh-release-mcp = "gh_release_mcp:main"
+
+[project.urls]
+Homepage = "https://github.com/zishuowang696/gh-release-mcp"
+Repository = "https://github.com/zishuowang696/gh-release-mcp"
+"Blog (embedai.com.cn)" = "https://embedai.com.cn"
+
+[tool.setuptools]
+py-modules = ["gh_release_mcp"]
